@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "resume-analysis"
+version = "0.1.0"
+description = ""
+authors = ["Giang Ta <giangta@futurify.vn>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.1"
+openai = "^1.14.3"
+langchain = "^0.1.14"
+tiktoken = "^0.6.0"
+langchain-openai = "^0.1.1"
+faiss-cpu = "^1.8.0"
+pymupdf = "^1.24.1"
+pydantic-settings = "^2.2.1"
+streamlit = "^1.33.0"
+pypdf = "^4.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
